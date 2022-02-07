@@ -14,14 +14,6 @@ Code can be viewed from a text editor such as visual studio or atom.
 ## Technologies Used
 Languages used include CSS, HTML, Bootstrap and Angular CLI. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
 
-## Behaviour Driven Devlopment(BDD)                Input                      | Output                |
-| -------------            | -------------         |------------------------|
-|Add Quote                 | A Quote is added      |
-| -------------            | -------------         ------------------------|
-|Thumbs Up                 | A vote is added       |   
-| -------------            | -------------         |------------------------| 
-|Thumbs Down               | A vote is        removed                           | -------------         |------------------------|
-
 
 
 ## Contact Information
