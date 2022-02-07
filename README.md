@@ -14,13 +14,6 @@ Code can be viewed from a text editor such as visual studio or atom.
 ## Technologies Used
 Languages used include CSS, HTML, Bootstrap and Angular CLI. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
 
-## Technologies Used
--IDEs: Atom, VScode and Sublime Editor 
-
--Browsers include either: Google Chrome, Mozilla Firefox, Opera, Edge.
-
--Stack: Angual 7, TypeScript, JavaScript ES6 , Bootstrap 4.0, HTML5 & CSS3.
-
 ## Behaviour Driven Development (BDD)
 | Input                                    	|Ouput 
 |-------------------------------------------|-------------------------------------|
