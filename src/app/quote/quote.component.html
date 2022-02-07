@@ -8,22 +8,22 @@
   
         <div class="form-group">
           <label for="text-input">Quote</label>
-          <textarea class="form-control" [(ngModel)]="quoteModel.text" placeholder="Write your quote here" rows="6"
+          <textarea class="form-control" ([(ngModel)]="quoteModel.text" placeholder="Write your quote here" rows="6"
             name="text" id="text-input" required></textarea>
-          <div class="alert alert-danger" *ngIf="text-input.touched && !text-input.valid">
+          <div class="alert alert-danger">
             You must enter a quote to continue
           </div>
         </div>
   
         <div class="form-group">
           <label for="author-input">Author</label>
-          <input class="form-control" type="text" [(ngModel)]="quoteModel.author" name="author" id="author-input"
+          <input class="form-control" type="text" ([(ngModel)]="quoteModel.author" name="author" id="author-input"
             placeholder="Quote Author" required>
         </div>
   
         <div class="form-group">
           <label for="poster-input">Poster</label>
-          <input id="poster-input" class="form-control" type="text" [(ngModel)]="quoteModel.poster" name="poster"
+          <input id="poster-input" class="form-control" type="text" ([(ngModel)]="quoteModel.poster" name="poster"
             placeholder="Your name" required>
         </div>
         <button type="submit" class="btn btn-success btn-lg">Add Quote</button>
