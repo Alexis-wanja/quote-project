@@ -2,7 +2,7 @@
     font-style: oblique;
     font-weight: bold;
     text-align: right;
-    color: purple;
+    color: rgb(15, 15, 15);
   }
   
   .btn {
@@ -50,23 +50,23 @@
   }
   
   .card:nth-child(6n-5) {
-    background-color: #0088ff;
+    background-color: #c82dd6;
   }
   
   .card:nth-child(6n-4) {
-    background-color: #ffaa00;
+    background-color: #00c3ff;
   }
   
   .card:nth-child(6n-3) {
-    background-color: #ff7700;
+    background-color: #b3ff00;
   }
   
   .card:nth-child(6n-2) {
-    background-color: #ff0033;
+    background-color: #f1486a;
   }
   
   .card:nth-child(6n-1) {
-    background-color: #9911aa;
+    background-color: #dd38f3;
   }
   
   .card:nth-child(6n+0) {
