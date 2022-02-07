@@ -10,7 +10,7 @@ export class QuoteComponent implements OnInit {
 
   constructor() { }
 
-   quoteModel: Quote;
+  quoteModel: Quote;
 
    showNew: Boolean = false;
 
