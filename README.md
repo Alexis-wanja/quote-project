@@ -23,16 +23,16 @@ Languages used include CSS, HTML, Bootstrap and Angular CLI. This project was ge
 
 ## Behaviour Driven Development (BDD)
 | Input                                    	|Ouput 
-
-| Post a Quote                           	|     Display Quote, Author and Date     
+|-------------------------------------------|-------------------------------------|
+| Post a Quote                           	|     Display Quote, Author and Date  |    
  	
-| Add Quote    	                            |     A user can add their own quote    
+| Add Quote    	                            |     A user can add their own quote  | 
 
-| Delete Quote                            	|     Quote Disappears                  |
+| Delete Quote                            	|     Quote Disappears                |
 
-| Thumbs UP    	                            |     One vote is added                 |
+| Thumbs UP    	                            |     One vote is added               |
 
-| Thumbs DOWN  	                            |     One vote is removed               |
+| Thumbs DOWN  	                            |     One vote is removed              |
 
 ## License Information
 
