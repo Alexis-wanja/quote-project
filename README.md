@@ -25,18 +25,18 @@ Languages used include CSS, HTML, Bootstrap and Angular CLI. This project was ge
 | Input                                    	|Ouput 
 |-------------------------------------------|-------------------------------------|
 | Post a Quote                           	|     Display Quote, Author and Date  |    
- 	
-| Add Quote    	                            |     A user can add their own quote  | 
-
+|-------------------------------------------|-------------------------------------| 
+| Add Quote                                 |     A user can add their own quote  | 
+|-------------------------------------------|-------------------------------------| 
 | Delete Quote                            	|     Quote Disappears                |
-
+|-------------------------------------------|-------------------------------------|
 | Thumbs UP    	                            |     One vote is added               |
-
-| Thumbs DOWN  	                            |     One vote is removed              |
+|-------------------------------------------|-------------------------------------|
+| Thumbs DOWN  	                            |     One vote is removed             |
+|-------------------------------------------|-------------------------------------|
 
 ## License Information
-
-MIT License Copyright(c)2019 James Komo
+MIT License Copyright(c)2019
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
