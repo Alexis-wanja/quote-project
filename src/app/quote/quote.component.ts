@@ -18,8 +18,8 @@ export class QuoteComponent implements OnInit {
    submitType = 'Save';
  
    quotes = [
-     new Quotes('Men are masters of their fate.', 'William Shakespear', '1', new Date(), 0, 0),
-     new Quotes('If you do not like a story, write your own', 'Chinua Achebe', '2', new Date(), 0, 0),
+     new Quotes('Men are masters of their fate.', 'William Shakespear', 'User 1', new Date(), 0, 0),
+     new Quotes('If you do not like a story, write your own', 'Chinua Achebe', 'User 2', new Date(), 0, 0),
    ];
  
    onNew() {

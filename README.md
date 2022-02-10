@@ -23,9 +23,9 @@ Languages used include CSS, HTML, Bootstrap and Angular CLI. This project was ge
 |-------------------------------------------|-------------------------------------| 
 | Delete Quote                            	|     Quote Disappears                |
 |-------------------------------------------|-------------------------------------|
-| Thumbs UP    	                            |     One vote is added               |
+| Upvote    	                            |     One vote is added               |
 |-------------------------------------------|-------------------------------------|
-| Thumbs DOWN  	                            |     One vote is removed             |
+| Downvote  	                            |     One vote is removed             |
 |-------------------------------------------|-------------------------------------|
 
 ## License Information
