@@ -24,7 +24,7 @@
     font-size: 20px;
   }
   
-  form {
+  /* /* form {
     padding: 20px;
     background-color: grey;
     width: 90%;
@@ -32,11 +32,11 @@
     position: absolute;
     z-index: 2;
     left: 5%;
-  }
+  } */
   
   label {
     font-weight: bold;
-    color: #ffffff;
+    color: #9b2525;
     letter-spacing: 2px;
   }
   
@@ -86,5 +86,5 @@
     color: red;
     float: right;
   }
-
+ 
   
