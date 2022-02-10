@@ -8,9 +8,10 @@ import { Quotes } from '../quotes';
 })
 export class QuoteComponent implements OnInit {
 
-  constructor() { }
+  constructor() {this.quoteModel= new Quotes("","","",new Date(),0,0)
+}
 
-  quoteModel: Quote;
+  quoteModel: Quotes;
 
    showNew: Boolean = false;
 

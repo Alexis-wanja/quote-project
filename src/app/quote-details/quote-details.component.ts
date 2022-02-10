@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Quotes } from '../quotes';
+import { TimeCountPipe } from '../time-count.pipe';
 
 @Component({
   selector: 'app-quote-details',
@@ -8,9 +9,9 @@ import { Quotes } from '../quotes';
 })
 export class QuoteDetailsComponent implements OnInit {
 
-  @Input() quote: Quote;
+  @Input() quote: Quotes;
 
-  constructor() { }
+  constructor() {this.quote =new Quotes("","","",new Date(),0,0) }
 
   ngOnInit(): void {
   }
