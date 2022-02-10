@@ -17,7 +17,6 @@ export class QuoteComponent implements OnInit {
    submitType = 'Save';
  
    quotes = [
- // tslint:disable-next-line: max-line-length
      new Quotes('Men are masters of their fate.', 'William Shakespear', '1', new Date(), 0, 0),
      new Quotes('If you do not like a story, write your own', 'Chinua Achebe', '2', new Date(), 0, 0),
    ];
@@ -37,8 +36,8 @@ export class QuoteComponent implements OnInit {
    onCancel() {
      this.showNew = false;
    }
-   delete(i) {
-     this.quotes.splice(i, 1);
+   delete() {
+     this.quotes.splice(1);
    }
 
   ngOnInit(): void {
