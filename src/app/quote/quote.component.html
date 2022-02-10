@@ -38,8 +38,8 @@
               <p>{{quote.author}}</p>
             </div>
             <div class="card-footer">
-              <app-quote-details [quote]='quote'></app-quote-details>
-              <span (click)="delete(i)" class="del"></span>
+              [quote]='quote'>
+              <span (click)="delete()" class="del"></span>
             </div>
   
             <div class="card-footer">
@@ -56,7 +56,7 @@
                 <div class="col-3 action">
                   {{quote.downvotes}}
                 </div>
-                 <button class="btn btn-danger" (click)='delete(i)'>Delete Quote </button>
+                 <button class="btn btn-danger" (click)='delete()'>Delete Quote </button>
   
               </div>
             </div>
